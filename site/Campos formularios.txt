@@ -1,0 +1,25 @@
+-> Quantidade de vitórias em casa ou fora dos times:
+date id="dataIni" -> opcional
+date id="dataFim' -> opcional
+combobox id="tipo" (casa ou fora) -> obrigatório
+
+-> Times mais ou menos vitoriosos de cada país:
+esporte id="esporte" -> opcional
+combobox id="tipo" (mais vitoriosos ou menos vitoriosos) -> obrigatório
+
+-> Times com o maior ou menor número de vitórias por campeonato
+esporte id="esporte" -> opcional
+combobox id="tipo" (mais vitoriosos ou menos vitoriosos) -> obrigatório
+
+-> Busca de jogadores
+nome id="nome"
+sobrenome id="sobrenome"
+apelido id="apelido"
+data de nascimento id="nasc"
+checkbox Jogadores aposentados id="ap"
+ano de aposentadoria id="dataAp" (visivel se checado acima)
+
+-> Busca de times
+nome id="nome"
+esporte id="esporte"
+pais id="pais"
